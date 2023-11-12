@@ -1,0 +1,51 @@
+#window {
+  background: transparent;
+}
+
+#outer-box {
+  border: solid 4px #33ccff;
+  border-radius: 30px;
+  background: #1e1e2e;
+}
+
+#input {
+  margin: 20px;
+  margin-bottom: 0;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  background: linear-gradient(to right, #28283e, #1e1e2e);
+}
+
+#input:focus {
+  padding: 20px;
+}
+
+#scroll {
+  margin: 20px;
+}
+
+#entry {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 15px;
+  outline: none;
+}
+
+#entry:selected {
+  background: linear-gradient(to right, #51517b, #1e1e2e);
+}
+
+#text {
+  margin-left: 10px;
+  color: #aaaaaa;
+  font-size: 16px;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+#text:selected {
+  color: #ffffff;
+}
